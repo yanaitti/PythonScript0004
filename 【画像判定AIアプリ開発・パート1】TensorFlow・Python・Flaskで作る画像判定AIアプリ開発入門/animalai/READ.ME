@@ -1,0 +1,20 @@
+README
+
+# 最初にサンプル用の画像ファイルをダウンロードしてくる
+download.py
+
+# データをnumpy形式に変換する
+gen_data.py
+gen_data_augmented.py <- 反転や回転を含めたもの
+
+output:
+animal.npy
+animal_aug.npy
+
+# Tensorflowで機械学習をおこなう
+animal_cnn.py
+animal_cnn_aug.py <- 反転や回転を含めたもの
+
+output:
+animal_cnn.h5
+animal_cnn_aug.h5
